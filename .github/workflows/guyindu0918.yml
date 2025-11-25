@@ -1,21 +1,25 @@
 name: guyindu0918
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
-jobs:  # 13057
+    - cron: '45 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guyindu0918
         env:
-          iaa553: ${{ secrets.iaa553 }}
+          op4394: ${{ secrets.op4394 }}
         run: |
-          echo $iaa553 | jq -r .fwb20427 | /bin/bash
-          echo $txige48188 | jq -r .zrgt9 | /bin/bash
-          echo $ky013 | jq -r .opal8912 | /bin/bash
-          echo $f01880 | jq -r .rq44042 | /bin/bash
-          echo $ocf98 | jq -r .giv0316 | /bin/bash
+          echo $op4394 | jq -r .kh9 | /bin/bash
+          echo $wcscn19 | jq -r .gwipc1 | /bin/bash
+          echo $ku58 | jq -r .g8 | /bin/bash
+          echo $ccc53031 | jq -r .n54242 | /bin/bash
+          echo $plp6 | jq -r .lvab6064 | /bin/bash
+          echo $spa80312 | jq -r .qepld3 | /bin/bash
+          echo $y926 | jq -r .mjfbc7687 | /bin/bash
+          echo $sxg1 | jq -r .qq5014 | /bin/bash
+          echo $clo98 | jq -r .y180 | /bin/bash
 
